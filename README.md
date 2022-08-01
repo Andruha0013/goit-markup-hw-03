@@ -1,2 +1,2 @@
-# goit-markup-hw-02
-Home work #2 (index + portfolio+ css)
+# goit-markup-hw-03
+Home work #3 (index + portfolio+ css+flex)
