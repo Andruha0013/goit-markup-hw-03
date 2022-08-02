@@ -166,9 +166,8 @@ body
 {
     background-color: #2F303A;
     background-image: url("../images/hero-background.jpg");
+    
     text-align: center;
-    align-items: center;
-    min-height: 600px;
 
     padding-top: 200px;
     padding-bottom: 200px;
@@ -176,16 +175,22 @@ body
 
 .hero-header
 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 30px;
+
+    width: 696px;
+
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     /* or 136% */
-    margin-top: 0;
-    margin-bottom: 30px;
-    
+
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
+
 }
 
 .order 
@@ -329,14 +334,14 @@ body
     display: block;
     width: 100%;
     height: auto;
-
-    margin-bottom: 30px;
 }
 
 .team-item-header
 {
     margin-top: 0;
     margin-bottom: 10px;
+
+    padding-top: 30px;
 
     font-weight: 500;
     font-size: 16px;
@@ -347,7 +352,8 @@ body
 .team-item-description 
 {
     margin-top: 0;
-    margin-bottom: 30px;
+    margin-bottom: 0;
+    padding-bottom: 30px;
 
     font-size: 16px;
     line-height: 1.19;
@@ -386,6 +392,7 @@ body
     font-size: 16px;
     line-height: 1.62;
     letter-spacing: var(--main-leter-spacing);
+
     background-color:#F5F4FA;
     border: none;
 }
@@ -468,25 +475,15 @@ body
     border-width: 1px;
     border-top: none;
 }
-
+/*
 .gallery-short-description
 {
-    /*font-size: 18px;
+    font-size: 18px;
     line-height: 1.56;
     letter-spacing: var(--main-leter-spacing);
-    color: #FFFFFF;*/
-
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
+    color: #FFFFFF;
 }
+*/
 /*---------------------footer-----------------*/
 .footer-class
 {
